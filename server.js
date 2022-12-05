@@ -3,7 +3,7 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 
 const app = require('./routes/index')
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 // db connect
 const DatabaseConn = require('./configs/dbConnection');
